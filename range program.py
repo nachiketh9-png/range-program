@@ -1,5 +1,6 @@
-year=int(input("Enter the year:"))
-if(year%4 == 0 and year%100!=0) or (year%400==0):
-  print("Leap year")
-else:
-  print("Not a leap year")
+\start=int(input(" enter the start of the range "))
+end=int(input(" enter the end of the range "))
+sum = 0
+for i in range( start , end+1):
+  sum += i
+  print("the sum is:", sum)
